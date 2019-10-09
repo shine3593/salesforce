@@ -8,3 +8,8 @@ public class massdelete {
       }
     
 }
+
+**Execute Anonymous Window**
+
+massdelete mdelete = new massdelete();
+mdelete.massdelete();
