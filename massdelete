@@ -1,0 +1,10 @@
+public class massdelete {
+    
+    public void massdelete(){
+                
+        List<mycustomobject__c> custList = new List<mycustomobject__c>(); //object=mycustomobject__c
+        custList = [select id, Name from mycustomobject__c limit 10];  //change limit to number of records to be deleted
+        delete custList;     
+      }
+    
+}
